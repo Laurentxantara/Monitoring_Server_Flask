@@ -85,4 +85,5 @@ def ssh_command():
         return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
-    app.run(host='10.201.0.228', port=5000, debug=True)
+    app.run(host='192.168.1.11', port=5000, debug=True)
+
